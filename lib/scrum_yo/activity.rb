@@ -1,17 +1,17 @@
 module ScrumYo
   class Activity
-    attr_reader :github_activity, :user
+    attr_reader :bitbucket_activity, :user
 
     def initialize
       @user = ScrumYo::User.new
-      @github = @user.github_client
-      @github_activity = load_activities
+      @bitbucket = @user.bitbucket_client
+      @bitbucket_activity = load_activities
     end
 
     private
 
     def load_activities(page = 1)
-      activities = @github.user_events(@user.username, page: page)
+      activities = @bitbucket.user_events(@user.username, page: page)
 
       if older_than_one_day(activities.last)
         return filter_activity(activities)

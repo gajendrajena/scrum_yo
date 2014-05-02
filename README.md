@@ -1,6 +1,6 @@
 ![scrum yo](https://raw.githubusercontent.com/mscoutermarsh/scrum_yo/master/scrum_art.png)
 ----
-[![Gem Version](https://badge.fury.io/rb/scrum_yo.png)](http://badge.fury.io/rb/scrum_yo)  
+[![Gem Version](https://badge.fury.io/rb/scrum_yo.png)](http://badge.fury.io/rb/scrum_yo)
 Be awesome at your daily stand up. ScrumYo is a command line tool that grabs a summary of your most recent GitHub commits & pull requests right in your console.
 
 ## Sceenshot
@@ -9,7 +9,7 @@ Be awesome at your daily stand up. ScrumYo is a command line tool that grabs a s
 ## Installation
 
     $ gem install scrum_yo
-    
+
 If using RVM, install it to your global gemset:
 
     $ rvm @global do gem install scrum_yo
@@ -22,11 +22,11 @@ There is only one command! To see your recent activity:
     $ scrumyo
 
 You'll have to login to your GitHub account on first use.
-    
+
 ## Authentication
 
-You'll be asked to login to GitHub your first use (even works with two-factor auth!). 
-An OAuth token is used for subsequent logins. The token is saved to your ```~/.netrc``` file. 
+You'll be asked to login to GitHub your first use (even works with two-factor auth!).
+An OAuth token is used for subsequent logins. The token is saved to your ```~/.netrc``` file.
 
 ## Contributing :heart: :purple_heart: :green_heart:
 

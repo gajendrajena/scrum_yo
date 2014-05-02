@@ -2,7 +2,7 @@ module ScrumYo
   class Output
     def initialize
       @activity = ScrumYo::Activity.new
-      @activities = @activity.github_activity
+      @activities = @activity.bitbucket_activity
     end
 
     def print

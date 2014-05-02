@@ -15,7 +15,7 @@ module ScrumYo
       ScrumYo::User.authenticate
 
       puts "Happy #{DateTime.current.strftime('%A')}!\n"
-      puts "Grabbing your recent GitHub Activity...\n".rainbow
+      puts "Grabbing your recent bitbucket Activity...\n".rainbow
       ScrumYo::Output.new.print
     end
   end
